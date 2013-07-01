@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Stop Registration Spam
+Plugin Name: Registration Spam Blocker
 Plugin URI: https://uproot.us/
 Description: Prevent user registration spam.
 Version: 1.0.0
@@ -21,9 +21,9 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, see <http://www.gnu.org/licenses/>.
 */
 
-$rpb = new SRS();
+$rsp = new RSB();
 
-class SRS
+class RSB
 {
 	function __construct() {
 		add_action('init', array($this, 'init'));

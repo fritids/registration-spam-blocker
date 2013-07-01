@@ -1,4 +1,4 @@
-=== Stop Registration Spam ===
+=== Registration Spam Blocker ===
 Contributors: mgibbs189
 Donate link: https://uproot.us/donate/
 Tags: spam, block, registration, user, user registration
